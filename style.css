@@ -13,6 +13,10 @@
     -moz-osx-font-smoothing:grayscale;
     -webkit-text-size-adjust: 100%;
 }
+img{
+    height: 5rem;
+    border-radius: 5px;
+}
 body{
     background-color: #0F172A;
 }

@@ -1,95 +1,96 @@
 const perguntas = [
     {
-        pergunta: "Qual palavra-chave é usada para declarar uma variável em JavaScript?",
+        pergunta: "Quem foi o primeiro profeta a escrever no Livro de Mórmon?",
         respostas: [
-            "var",
-            "let",
-            "const"
-        ],
-        correta: 1
-    },
-    {
-        pergunta: "Qual desses métodos é usado para adicionar um elemento ao final de um array?",
-        respostas: [
-            "push()",
-            "pop()",
-            "shift()"
+            "Néfi",
+            "Mórmon",
+            "Morôni"
         ],
         correta: 0
     },
     {
-        pergunta: "Qual símbolo é usado para comentários de uma linha em JavaScript?",
+        pergunta: "Qual é o nome do último profeta que escreveu no Livro de Mórmon?",
         respostas: [
-            "-- Comentário",
-            "// Comentário",
-            "/* Comentário */"
+            "Helamã",
+            "Morôni",
+            "Alma"
         ],
         correta: 1
     },
     {
-        pergunta: "Qual operador é usado para comparar valores e tipos em JavaScript?",
+        pergunta: "Quantos anos aproximadamente cobre a história do Livro de Mórmon?",
         respostas: [
-            "==",
-            "!=",
-            "==="
+            "300 anos",
+            "1000 anos",
+            "600 anos"
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Qual povo construiu o navio para viajar de Jerusalém às Américas?",
+        respostas: [
+            "Os lamanitas",
+            "Os néfitas",
+            "Os jareditas"
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Quem compilou os registros do Livro de Mórmon?",
+        respostas: [
+            "Mórmon",
+            "Morôni",
+            "Néfi"
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Qual civilização veio à América em uma época anterior aos néfitas?",
+        respostas: [
+            "Os lamanitas",
+            "Os jareditas",
+            "Os amalequitas"
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é o evento central descrito em 3 Néfi?",
+        respostas: [
+            "A destruição de Jerusalém",
+            "A visita de Jesus Cristo às Américas",
+            "A guerra final entre néfitas e lamanitas"
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Quem escondeu as placas de ouro no monte Cumora?",
+        respostas: [
+            "Néfi",
+            "Mórmon",
+            "Morôni"
         ],
         correta: 2
     },
     {
-        pergunta: "Como declarar uma função em JavaScript?",
+        pergunta: "Qual é o propósito declarado do Livro de Mórmon na introdução?",
         respostas: [
-            "function minhaFuncao() {}",
-            "def minhaFuncao() {}",
-            "fun minhaFuncao() {}"
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "O que o método 'typeof' retorna para um array?",
-        respostas: [
-            "'array'",
-            "'object'",
-            "'list'"
+            "Ensinar sobre profecias do Velho Testamento",
+            "Convidar todos a vir a Cristo",
+            "Explicar a história de Israel"
         ],
         correta: 1
     },
     {
-        pergunta: "Qual dessas estruturas de controle é usada para repetição?",
+        pergunta: "Em que língua foram originalmente escritas as placas do Livro de Mórmon?",
         respostas: [
-            "if",
-            "for",
-            "switch"
-        ],
-        correta: 1
-    },
-    {
-        pergunta: "Qual função é usada para converter uma string em um número inteiro?",
-        respostas: [
-            "parseInt()",
-            "parseFloat()",
-            "Number()"
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual método é usado para remover o último elemento de um array?",
-        respostas: [
-            "pop()",
-            "shift()",
-            "splice()"
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual destas declarações sobre 'null' e 'undefined' está correta?",
-        respostas: [
-            "Ambos significam ausência de valor, mas 'null' é atribuído manualmente",
-            "Ambos são exatamente iguais e intercambiáveis",
-            "'undefined' é um valor válido atribuído manualmente"
+            "Egípcio reformado",
+            "Hebraico antigo",
+            "Latim"
         ],
         correta: 0
     }
 ];
+
 
 const quiz = document.querySelector('#quiz')
 const template = document.querySelector('template')
